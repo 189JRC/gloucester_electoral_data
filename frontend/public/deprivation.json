@@ -1,0 +1,614 @@
+{
+  "Abbeydale": {
+    "lsoa21nm": "E05010950",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022276",
+        "absolute_deprivation_ranking": 27276,
+        "relative_deprivation_ranking_pct": 83,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022277",
+        "absolute_deprivation_ranking": 20806,
+        "relative_deprivation_ranking_pct": 63,
+        "deprivation_decile": 7
+      },
+      {
+        "lsoa11_id": "E01022278",
+        "absolute_deprivation_ranking": 24912,
+        "relative_deprivation_ranking_pct": 76,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022279",
+        "absolute_deprivation_ranking": 24487,
+        "relative_deprivation_ranking_pct": 75,
+        "deprivation_decile": 8
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 74.25
+  },
+  "Abbeymead": {
+    "lsoa21nm": "E05010951",
+    "lsoa_number_of": 3,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022280",
+        "absolute_deprivation_ranking": 24763,
+        "relative_deprivation_ranking_pct": 75,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022281",
+        "absolute_deprivation_ranking": 27709,
+        "relative_deprivation_ranking_pct": 84,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022307",
+        "absolute_deprivation_ranking": 29388,
+        "relative_deprivation_ranking_pct": 89,
+        "deprivation_decile": 9
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 82.6666666666667
+  },
+  "Barnwood": {
+    "lsoa21nm": "E05010952",
+    "lsoa_number_of": 3,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022282",
+        "absolute_deprivation_ranking": 29379,
+        "relative_deprivation_ranking_pct": 89,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022283",
+        "absolute_deprivation_ranking": 29131,
+        "relative_deprivation_ranking_pct": 89,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022287",
+        "absolute_deprivation_ranking": 19179,
+        "relative_deprivation_ranking_pct": 58,
+        "deprivation_decile": 6
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 78.6666666666667
+  },
+  "Coney Hill": {
+    "lsoa21nm": "E05010954",
+    "lsoa_number_of": 3,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022284",
+        "absolute_deprivation_ranking": 6076,
+        "relative_deprivation_ranking_pct": 18,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022285",
+        "absolute_deprivation_ranking": 5091,
+        "relative_deprivation_ranking_pct": 16,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022286",
+        "absolute_deprivation_ranking": 7316,
+        "relative_deprivation_ranking_pct": 22,
+        "deprivation_decile": 3
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 18.6666666666667
+  },
+  "Barton and Tredworth": {
+    "lsoa21nm": "E05010953",
+    "lsoa_number_of": 7,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022288",
+        "absolute_deprivation_ranking": 5747,
+        "relative_deprivation_ranking_pct": 17,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022289",
+        "absolute_deprivation_ranking": 4101,
+        "relative_deprivation_ranking_pct": 12,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022290",
+        "absolute_deprivation_ranking": 5660,
+        "relative_deprivation_ranking_pct": 17,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022291",
+        "absolute_deprivation_ranking": 3126,
+        "relative_deprivation_ranking_pct": 10,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022292",
+        "absolute_deprivation_ranking": 5136,
+        "relative_deprivation_ranking_pct": 16,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022293",
+        "absolute_deprivation_ranking": 6630,
+        "relative_deprivation_ranking_pct": 20,
+        "deprivation_decile": 3
+      },
+      {
+        "lsoa11_id": "E01022294",
+        "absolute_deprivation_ranking": 7298,
+        "relative_deprivation_ranking_pct": 22,
+        "deprivation_decile": 3
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 16.2857142857143
+  },
+  "Elmbridge": {
+    "lsoa21nm": "E05010955",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022295",
+        "absolute_deprivation_ranking": 25043,
+        "relative_deprivation_ranking_pct": 76,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022296",
+        "absolute_deprivation_ranking": 13863,
+        "relative_deprivation_ranking_pct": 42,
+        "deprivation_decile": 5
+      },
+      {
+        "lsoa11_id": "E01022297",
+        "absolute_deprivation_ranking": 31496,
+        "relative_deprivation_ranking_pct": 96,
+        "deprivation_decile": 10
+      },
+      {
+        "lsoa11_id": "E01022298",
+        "absolute_deprivation_ranking": 25618,
+        "relative_deprivation_ranking_pct": 78,
+        "deprivation_decile": 8
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 73.0
+  },
+  "Grange": {
+    "lsoa21nm": "E05010956",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022299",
+        "absolute_deprivation_ranking": 19458,
+        "relative_deprivation_ranking_pct": 59,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01022300",
+        "absolute_deprivation_ranking": 23654,
+        "relative_deprivation_ranking_pct": 72,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022301",
+        "absolute_deprivation_ranking": 10026,
+        "relative_deprivation_ranking_pct": 31,
+        "deprivation_decile": 4
+      },
+      {
+        "lsoa11_id": "E01022302",
+        "absolute_deprivation_ranking": 21424,
+        "relative_deprivation_ranking_pct": 65,
+        "deprivation_decile": 7
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 56.75
+  },
+  "Hucclecote": {
+    "lsoa21nm": "E05010957",
+    "lsoa_number_of": 5,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022303",
+        "absolute_deprivation_ranking": 19779,
+        "relative_deprivation_ranking_pct": 60,
+        "deprivation_decile": 7
+      },
+      {
+        "lsoa11_id": "E01022304",
+        "absolute_deprivation_ranking": 28711,
+        "relative_deprivation_ranking_pct": 87,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022305",
+        "absolute_deprivation_ranking": 28079,
+        "relative_deprivation_ranking_pct": 85,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022306",
+        "absolute_deprivation_ranking": 28208,
+        "relative_deprivation_ranking_pct": 86,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022308",
+        "absolute_deprivation_ranking": 26956,
+        "relative_deprivation_ranking_pct": 82,
+        "deprivation_decile": 9
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 80.0
+  },
+  "Kingsholm and Wotton": {
+    "lsoa21nm": "E05010958",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022309",
+        "absolute_deprivation_ranking": 8994,
+        "relative_deprivation_ranking_pct": 27,
+        "deprivation_decile": 3
+      },
+      {
+        "lsoa11_id": "E01022310",
+        "absolute_deprivation_ranking": 11949,
+        "relative_deprivation_ranking_pct": 36,
+        "deprivation_decile": 4
+      },
+      {
+        "lsoa11_id": "E01022311",
+        "absolute_deprivation_ranking": 1456,
+        "relative_deprivation_ranking_pct": 4,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022312",
+        "absolute_deprivation_ranking": 15803,
+        "relative_deprivation_ranking_pct": 48,
+        "deprivation_decile": 5
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 28.75
+  },
+  "Longlevens": {
+    "lsoa21nm": "E05010960",
+    "lsoa_number_of": 6,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022313",
+        "absolute_deprivation_ranking": 25587,
+        "relative_deprivation_ranking_pct": 78,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022314",
+        "absolute_deprivation_ranking": 24509,
+        "relative_deprivation_ranking_pct": 75,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022315",
+        "absolute_deprivation_ranking": 29932,
+        "relative_deprivation_ranking_pct": 91,
+        "deprivation_decile": 10
+      },
+      {
+        "lsoa11_id": "E01022316",
+        "absolute_deprivation_ranking": 29039,
+        "relative_deprivation_ranking_pct": 88,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022317",
+        "absolute_deprivation_ranking": 30776,
+        "relative_deprivation_ranking_pct": 94,
+        "deprivation_decile": 10
+      },
+      {
+        "lsoa11_id": "E01022318",
+        "absolute_deprivation_ranking": 31051,
+        "relative_deprivation_ranking_pct": 95,
+        "deprivation_decile": 10
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 86.8333333333333
+  },
+  "Matson, Robinswood and White City": {
+    "lsoa21nm": "E05010961",
+    "lsoa_number_of": 7,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022319",
+        "absolute_deprivation_ranking": 735,
+        "relative_deprivation_ranking_pct": 2,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022320",
+        "absolute_deprivation_ranking": 5681,
+        "relative_deprivation_ranking_pct": 17,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022321",
+        "absolute_deprivation_ranking": 14918,
+        "relative_deprivation_ranking_pct": 45,
+        "deprivation_decile": 5
+      },
+      {
+        "lsoa11_id": "E01022322",
+        "absolute_deprivation_ranking": 3800,
+        "relative_deprivation_ranking_pct": 12,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022323",
+        "absolute_deprivation_ranking": 2948,
+        "relative_deprivation_ranking_pct": 9,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022324",
+        "absolute_deprivation_ranking": 3508,
+        "relative_deprivation_ranking_pct": 11,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022325",
+        "absolute_deprivation_ranking": 11134,
+        "relative_deprivation_ranking_pct": 34,
+        "deprivation_decile": 4
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 18.5714285714286
+  },
+  "Moreland": {
+    "lsoa21nm": "E05010962",
+    "lsoa_number_of": 7,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022326",
+        "absolute_deprivation_ranking": 12729,
+        "relative_deprivation_ranking_pct": 39,
+        "deprivation_decile": 4
+      },
+      {
+        "lsoa11_id": "E01022327",
+        "absolute_deprivation_ranking": 16078,
+        "relative_deprivation_ranking_pct": 49,
+        "deprivation_decile": 5
+      },
+      {
+        "lsoa11_id": "E01022328",
+        "absolute_deprivation_ranking": 5238,
+        "relative_deprivation_ranking_pct": 16,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01022329",
+        "absolute_deprivation_ranking": 2221,
+        "relative_deprivation_ranking_pct": 7,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022330",
+        "absolute_deprivation_ranking": 15816,
+        "relative_deprivation_ranking_pct": 48,
+        "deprivation_decile": 5
+      },
+      {
+        "lsoa11_id": "E01022331",
+        "absolute_deprivation_ranking": 10417,
+        "relative_deprivation_ranking_pct": 32,
+        "deprivation_decile": 4
+      },
+      {
+        "lsoa11_id": "E01022332",
+        "absolute_deprivation_ranking": 4897,
+        "relative_deprivation_ranking_pct": 15,
+        "deprivation_decile": 2
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 29.4285714285714
+  },
+  "Podsmead": {
+    "lsoa21nm": "E05010963",
+    "lsoa_number_of": 2,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022333",
+        "absolute_deprivation_ranking": 621,
+        "relative_deprivation_ranking_pct": 2,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022334",
+        "absolute_deprivation_ranking": 15510,
+        "relative_deprivation_ranking_pct": 47,
+        "deprivation_decile": 5
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 24.5
+  },
+  "Quedgeley Fieldcourt": {
+    "lsoa21nm": "E05010964",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022335",
+        "absolute_deprivation_ranking": 24263,
+        "relative_deprivation_ranking_pct": 74,
+        "deprivation_decile": 8
+      },
+      {
+        "lsoa11_id": "E01022336",
+        "absolute_deprivation_ranking": 22985,
+        "relative_deprivation_ranking_pct": 70,
+        "deprivation_decile": 7
+      },
+      {
+        "lsoa11_id": "E01022338",
+        "absolute_deprivation_ranking": 17806,
+        "relative_deprivation_ranking_pct": 54,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01032934",
+        "absolute_deprivation_ranking": 16444,
+        "relative_deprivation_ranking_pct": 50,
+        "deprivation_decile": 6
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 62.0
+  },
+  "Quedgeley Severn Vale": {
+    "lsoa21nm": "E05010965",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022339",
+        "absolute_deprivation_ranking": 31070,
+        "relative_deprivation_ranking_pct": 95,
+        "deprivation_decile": 10
+      },
+      {
+        "lsoa11_id": "E01022340",
+        "absolute_deprivation_ranking": 26837,
+        "relative_deprivation_ranking_pct": 82,
+        "deprivation_decile": 9
+      },
+      {
+        "lsoa11_id": "E01022341",
+        "absolute_deprivation_ranking": 19527,
+        "relative_deprivation_ranking_pct": 59,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01022342",
+        "absolute_deprivation_ranking": 29186,
+        "relative_deprivation_ranking_pct": 89,
+        "deprivation_decile": 9
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 81.25
+  },
+  "Tuffley": {
+    "lsoa21nm": "E05010966",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022343",
+        "absolute_deprivation_ranking": 17576,
+        "relative_deprivation_ranking_pct": 54,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01022344",
+        "absolute_deprivation_ranking": 14347,
+        "relative_deprivation_ranking_pct": 44,
+        "deprivation_decile": 5
+      },
+      {
+        "lsoa11_id": "E01022345",
+        "absolute_deprivation_ranking": 22101,
+        "relative_deprivation_ranking_pct": 67,
+        "deprivation_decile": 7
+      },
+      {
+        "lsoa11_id": "E01022346",
+        "absolute_deprivation_ranking": 2801,
+        "relative_deprivation_ranking_pct": 9,
+        "deprivation_decile": 1
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 43.5
+  },
+  "Westgate": {
+    "lsoa21nm": "E05010967",
+    "lsoa_number_of": 4,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01022347",
+        "absolute_deprivation_ranking": 1183,
+        "relative_deprivation_ranking_pct": 4,
+        "deprivation_decile": 1
+      },
+      {
+        "lsoa11_id": "E01022348",
+        "absolute_deprivation_ranking": 19357,
+        "relative_deprivation_ranking_pct": 59,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01032932",
+        "absolute_deprivation_ranking": 5109,
+        "relative_deprivation_ranking_pct": 16,
+        "deprivation_decile": 2
+      },
+      {
+        "lsoa11_id": "E01032937",
+        "absolute_deprivation_ranking": 1579,
+        "relative_deprivation_ranking_pct": 5,
+        "deprivation_decile": 1
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 21.0
+  },
+  "Kingsway": {
+    "lsoa21nm": "E05010959",
+    "lsoa_number_of": 3,
+    "local_authority_rank_pct": 5,
+    "lsoa11_ids": [
+      {
+        "lsoa11_id": "E01032933",
+        "absolute_deprivation_ranking": 19164,
+        "relative_deprivation_ranking_pct": 58,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01032935",
+        "absolute_deprivation_ranking": 17155,
+        "relative_deprivation_ranking_pct": 52,
+        "deprivation_decile": 6
+      },
+      {
+        "lsoa11_id": "E01032936",
+        "absolute_deprivation_ranking": 19017,
+        "relative_deprivation_ranking_pct": 58,
+        "deprivation_decile": 6
+      }
+    ],
+    "mean_absolute_deprivation_ranking": 56.0
+  }
+}

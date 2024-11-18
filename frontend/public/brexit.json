@@ -1,0 +1,167 @@
+{
+    "Abbeydale": {
+        "leave_votes": 2481,
+        "leave_percentage": 60,
+        "remain_votes": 1636,
+        "remain_percentage": 40,
+        "total_votes": 4117,
+        "electorate": 5266,
+        "turnout_percentage": 78
+    },
+    "Abbeymead": {
+        "leave_votes": 1962,
+        "leave_percentage": 53,
+        "remain_votes": 1732,
+        "remain_percentage": 47,
+        "total_votes": 3694,
+        "electorate": 4733,
+        "turnout_percentage": 78
+    },
+    "Barnwood": {
+        "leave_votes": 2058,
+        "leave_percentage": 52,
+        "remain_votes": 1904,
+        "remain_percentage": 48,
+        "total_votes": 3962,
+        "electorate": 4983,
+        "turnout_percentage": 79
+    },
+    "Barton_and_Tredworth": {
+        "leave_votes": 2116,
+        "leave_percentage": 54,
+        "remain_votes": 1799,
+        "remain_percentage": 46,
+        "total_votes": 3915,
+        "electorate": 6480,
+        "turnout_percentage": 60
+    },
+    "Coney_Hill": {
+        "leave_votes": 1051,
+        "leave_percentage": 71,
+        "remain_votes": 425,
+        "remain_percentage": 29,
+        "total_votes": 1476,
+        "electorate": 2456,
+        "turnout_percentage": 60
+    },
+    "Elmbridge": {
+        "leave_votes": 2069,
+        "leave_percentage": 55,
+        "remain_votes": 1712,
+        "remain_percentage": 45,
+        "total_votes": 3781,
+        "electorate": 4903,
+        "turnout_percentage": 77
+    },
+    "Grange": {
+        "leave_votes": 2527,
+        "leave_percentage": 66,
+        "remain_votes": 1327,
+        "remain_percentage": 34,
+        "total_votes": 3854,
+        "electorate": 5205,
+        "turnout_percentage": 74
+    },
+    "Hucclecote": {
+        "leave_votes": 2478,
+        "leave_percentage": 60,
+        "remain_votes": 1676,
+        "remain_percentage": 40,
+        "total_votes": 4154,
+        "electorate": 5165,
+        "turnout_percentage": 80
+    },
+    "Kingsway": {
+        "leave_votes": 1414,
+        "leave_percentage": 55,
+        "remain_votes": 1180,
+        "remain_percentage": 45,
+        "total_votes": 2594,
+        "electorate": 3778,
+        "turnout_percentage": 68
+    },
+    "Kingsholm_and_Wotton": {
+        "leave_votes": 1536,
+        "leave_percentage": 50,
+        "remain_votes": 1506,
+        "remain_percentage": 50,
+        "total_votes": 3042,
+        "electorate": 4583,
+        "turnout_percentage": 66
+    },
+    "Longlevens": {
+        "leave_votes": 3331,
+        "leave_percentage": 56,
+        "remain_votes": 2646,
+        "remain_percentage": 44,
+        "total_votes": 5977,
+        "electorate": 7484,
+        "turnout_percentage": 79
+    },
+    "Matson_Robinswood_and_White_City": {
+        "leave_votes": 2781,
+        "leave_percentage": 68,
+        "remain_votes": 1328,
+        "remain_percentage": 32,
+        "total_votes": 4109,
+        "electorate": 6526,
+        "turnout_percentage": 62
+    },
+    "Moreland": {
+        "leave_votes": 2832,
+        "leave_percentage": 61,
+        "remain_votes": 1782,
+        "remain_percentage": 39,
+        "total_votes": 4614,
+        "electorate": 6816,
+        "turnout_percentage": 67
+    },
+    "Podsmead": {
+        "leave_votes": 1043,
+        "leave_percentage": 68,
+        "remain_votes": 498,
+        "remain_percentage": 32,
+        "total_votes": 1541,
+        "electorate": 2182,
+        "turnout_percentage": 70
+    },
+    "Quedgeley_Fieldcourt": {
+        "leave_votes": 2066,
+        "leave_percentage": 63,
+        "remain_votes": 1238,
+        "remain_percentage": 37,
+        "total_votes": 3304,
+        "electorate": 4534,
+        "turnout_percentage": 72
+    },
+    "Quedgeley_Severn_Vale": {
+        "leave_votes": 2027,
+        "leave_percentage": 58,
+        "remain_votes": 1463,
+        "remain_percentage": 42,
+        "total_votes": 3490,
+        "electorate": 4605,
+        "turnout_percentage": 75
+    },
+    "Tuffley": {
+        "leave_votes": 2164,
+        "leave_percentage": 65,
+        "remain_votes": 1152,
+        "remain_percentage": 35,
+        "total_votes": 3316,
+        "electorate": 4467,
+        "turnout_percentage": 74
+    },
+    "Westgate": {
+        "leave_votes": 1808,
+        "leave_percentage": 52,
+        "remain_votes": 1655,
+        "remain_percentage": 48,
+        "total_votes": 3463,
+        "electorate": 5164,
+        "turnout_percentage": 67
+    },
+    "Churchdown_Brookfield_with_Hucclecote": {
+        "leave_percentage": 0
+    }
+}

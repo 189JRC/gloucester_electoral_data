@@ -1,0 +1,1265 @@
+{
+  "Westgate": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 3,
+      "Total Votes": 5344,
+      "Electorate": 6918,
+      "Ballot Papers Issued": 1964,
+      "Ballot Papers Rejected": 7,
+      "Turnout": "28%"
+    },
+    "Results": [
+      {
+        "Candidate": "Rebecca Jane Trimnell",
+        "Party": "Liberal Democrat",
+        "Votes": 809,
+        "Percentage": "15%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Pam Tracey",
+        "Party": "Conservative",
+        "Votes": 649,
+        "Percentage": "12%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Howard Hyman",
+        "Party": "Liberal Democrat",
+        "Votes": 623,
+        "Percentage": "12%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Paul Roger Critchley",
+        "Party": "Conservative",
+        "Votes": 515,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Ola Kareem",
+        "Party": "Liberal Democrat",
+        "Votes": 492,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Rich Flower",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 483,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Justin Hudson",
+        "Party": "Conservative",
+        "Votes": 478,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Robert David Kingston",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 448,
+        "Percentage": "8%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jag Thangella",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 388,
+        "Percentage": "7%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "David Richard (Mr Toasty) Purchase",
+        "Party": "Independent",
+        "Votes": 269,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Deborah Oldham",
+        "Party": "Green Party",
+        "Votes": 190,
+        "Percentage": "4%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Coney Hill": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 1,
+      "Total Votes": 582,
+      "Electorate": 2478,
+      "Ballot Papers Issued": 589,
+      "Ballot Papers Rejected": 7,
+      "Turnout": "24%"
+    },
+    "Results": [
+      {
+        "Candidate": "Tracy Sharon Millard",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 252,
+        "Percentage": "43%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Byron Clifford Davis",
+        "Party": "Independent",
+        "Votes": 190,
+        "Percentage": "33%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Mika Price",
+        "Party": "Conservative",
+        "Votes": 83,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "David Gayler",
+        "Party": "Liberal Democrat",
+        "Votes": 24,
+        "Percentage": "4%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Adam Shearing",
+        "Party": "Green Party",
+        "Votes": 20,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Toriqul Islam",
+        "Party": "Socialist Labour Party",
+        "Votes": 13,
+        "Percentage": "2%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Abbeydale": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2973,
+      "Electorate": 5022,
+      "Ballot Papers Issued": 1643,
+      "Ballot Papers Rejected": 4,
+      "Turnout": "33%"
+    },
+    "Results": [
+      {
+        "Candidate": "Andrew Gravells",
+        "Party": "Conservative",
+        "Votes": 806,
+        "Percentage": "27%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Louise Ann Walker",
+        "Party": "Conservative",
+        "Votes": 572,
+        "Percentage": "19%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Anita Margaret Masters",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 418,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Amie Sioux Hewish",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 408,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Collette Jane Finnegan",
+        "Party": "Liberal Democrat",
+        "Votes": 330,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Fiona Bromby",
+        "Party": "Liberal Democrat",
+        "Votes": 249,
+        "Percentage": "8%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Tom Grant",
+        "Party": "Independent",
+        "Votes": 190,
+        "Percentage": "6%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Abbeymead": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2720,
+      "Electorate": 4564,
+      "Ballot Papers Issued": 1488,
+      "Ballot Papers Rejected": 12,
+      "Turnout": "33%"
+    },
+    "Results": [
+      {
+        "Candidate": "Laura Brooker",
+        "Party": "Conservative",
+        "Votes": 712,
+        "Percentage": "26%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Kate Hyland",
+        "Party": "Conservative",
+        "Votes": 523,
+        "Percentage": "19%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Adam Philip Gatier",
+        "Party": "Liberal Democrat",
+        "Votes": 488,
+        "Percentage": "18%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jade Emraz",
+        "Party": "Liberal Democrat",
+        "Votes": 467,
+        "Percentage": "17%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Robbie Brewster-Lowry",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 285,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Stuart Alan Moakes",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 245,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Barnwood": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 3260,
+      "Electorate": 4955,
+      "Ballot Papers Issued": 1761,
+      "Ballot Papers Rejected": 12,
+      "Turnout": "36%"
+    },
+    "Results": [
+      {
+        "Candidate": "Ashley James Bowkett",
+        "Party": "Liberal Democrat",
+        "Votes": 752,
+        "Percentage": "23%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Joshua Luke Taylor",
+        "Party": "Liberal Democrat",
+        "Votes": 598,
+        "Percentage": "18%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Suzanne Pearsall",
+        "Party": "Conservative",
+        "Votes": 373,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Fred Ramsey",
+        "Party": "Independent",
+        "Votes": 329,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "David Hughes Cullum",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 318,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Liz Maguire",
+        "Party": "Conservative",
+        "Votes": 310,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jane Caroline Ramsey",
+        "Party": "Independent",
+        "Votes": 309,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jake David Pier",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 271,
+        "Percentage": "8%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Barton and Tredworth": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 3,
+      "Total Votes": 6083,
+      "Electorate": 7693,
+      "Ballot Papers Issued": 2330,
+      "Ballot Papers Rejected": 12,
+      "Turnout": "30%"
+    },
+    "Results": [
+      {
+        "Candidate": "Sajid Patel",
+        "Party": "Conservative",
+        "Votes": 846,
+        "Percentage": "14%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Usman Gani Bhaimia",
+        "Party": "Liberal Democrat",
+        "Votes": 763,
+        "Percentage": "13%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Roseanna Louise Marshall",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 753,
+        "Percentage": "12%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Shamsuz Litu",
+        "Party": "Conservative",
+        "Votes": 628,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Mohiyouddin Fadra",
+        "Party": "Conservative",
+        "Votes": 544,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Emma Clifford",
+        "Party": "Green Party",
+        "Votes": 383,
+        "Percentage": "6%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Angela Oliver",
+        "Party": "Liberal Democrat",
+        "Votes": 341,
+        "Percentage": "6%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Daniel Courtney",
+        "Party": "Liberal Democrat",
+        "Votes": 328,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Akhlaque Ahmed",
+        "Party": "Socialist Labour Party",
+        "Votes": 296,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Matt Phypers",
+        "Party": "Green Party",
+        "Votes": 281,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Alan Arthur Platt",
+        "Party": "Independent",
+        "Votes": 213,
+        "Percentage": "4%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Benjamin Baker",
+        "Party": "Independent",
+        "Votes": 201,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Daniel Joseph Woolf",
+        "Party": "Independent",
+        "Votes": 172,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Saiham Sikder",
+        "Party": "Socialist Labour Party",
+        "Votes": 164,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Susan Powell",
+        "Party": "Trade Unionists and Socialists Against Cuts",
+        "Votes": 106,
+        "Percentage": "2%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "James Collett",
+        "Party": "Trade Unionists and Socialists Against Cuts",
+        "Votes": 64,
+        "Percentage": "1%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Elmbridge": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2745,
+      "Electorate": 4782,
+      "Ballot Papers Issued": 1519,
+      "Ballot Papers Rejected": 20,
+      "Turnout": "32%"
+    },
+    "Results": [
+      {
+        "Candidate": "Anne Marie Clare Radley",
+        "Party": "Liberal Democrat",
+        "Votes": 1065,
+        "Percentage": "39%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Vicky Norledge",
+        "Party": "Liberal Democrat",
+        "Votes": 875,
+        "Percentage": "32%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Simon Derek Locke",
+        "Party": "Conservative",
+        "Votes": 319,
+        "Percentage": "12%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Ella Kubaszczyk",
+        "Party": "Conservative",
+        "Votes": 251,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Fran Griffiths",
+        "Party": "Green Party",
+        "Votes": 235,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Grange": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2624,
+      "Electorate": 5037,
+      "Ballot Papers Issued": 1449,
+      "Ballot Papers Rejected": 4,
+      "Turnout": "29%"
+    },
+    "Results": [
+      {
+        "Candidate": "Sylvia Evans",
+        "Party": "Conservative",
+        "Votes": 552,
+        "Percentage": "21%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Andrew Bell",
+        "Party": "Independent",
+        "Votes": 458,
+        "Percentage": "17%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Gary John Davis",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 455,
+        "Percentage": "17%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jennie Watkins",
+        "Party": "Conservative",
+        "Votes": 445,
+        "Percentage": "17%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Simon Phillip Cozens",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 442,
+        "Percentage": "17%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Karen Minchin",
+        "Party": "Liberal Democrat",
+        "Votes": 136,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Kira Moffatt",
+        "Party": "Liberal Democrat",
+        "Votes": 136,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Hucclecote": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 3403,
+      "Electorate": 4997,
+      "Ballot Papers Issued": 1803,
+      "Ballot Papers Rejected": 7,
+      "Turnout": "36%"
+    },
+    "Results": [
+      {
+        "Candidate": "Declan Michael Hilary Wilson",
+        "Party": "Liberal Democrat",
+        "Votes": 1174,
+        "Percentage": "34%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Alwin Ferenc Wiederhold",
+        "Party": "Liberal Democrat",
+        "Votes": 1134,
+        "Percentage": "33%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Jen Hawkins",
+        "Party": "Conservative",
+        "Votes": 304,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Shirley Darke",
+        "Party": "Conservative",
+        "Votes": 298,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Niamh Elizabeth Walsh",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 250,
+        "Percentage": "7%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Anne Whitworth",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 243,
+        "Percentage": "7%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Kingsholm and Wotton": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2688,
+      "Electorate": 4898,
+      "Ballot Papers Issued": 1436,
+      "Ballot Papers Rejected": 11,
+      "Turnout": "29%"
+    },
+    "Results": [
+      {
+        "Candidate": "Jeremy Eric Hilton",
+        "Party": "Liberal Democrat",
+        "Votes": 840,
+        "Percentage": "31%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Angela Margaret Conder",
+        "Party": "Liberal Democrat",
+        "Votes": 764,
+        "Percentage": "28%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Kären Judith Clarke",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 330,
+        "Percentage": "12%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Aaron Stephen Bennett",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 326,
+        "Percentage": "12%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Duncan Hall",
+        "Party": "Conservative",
+        "Votes": 223,
+        "Percentage": "8%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Peter Louis Sheehy",
+        "Party": "Conservative",
+        "Votes": 205,
+        "Percentage": "8%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Kingsway": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2064,
+      "Electorate": 4201,
+      "Ballot Papers Issued": 1168,
+      "Ballot Papers Rejected": 5,
+      "Turnout": "28%"
+    },
+    "Results": [
+      {
+        "Candidate": "Karen Louise James",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 557,
+        "Percentage": "27%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "John Jones",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 530,
+        "Percentage": "26%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Jaro Kubaszczyk",
+        "Party": "Conservative",
+        "Votes": 284,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Tracey Ann Williams",
+        "Party": "Conservative",
+        "Votes": 260,
+        "Percentage": "13%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Gill White",
+        "Party": "Green Party",
+        "Votes": 146,
+        "Percentage": "7%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Vicki Field",
+        "Party": "Liberal Democrat",
+        "Votes": 135,
+        "Percentage": "7%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jinny Harvey",
+        "Party": "Green Party",
+        "Votes": 94,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "George Gordon Fairbrother Barwood",
+        "Party": "Liberal Democrat",
+        "Votes": 58,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Longlevens": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 3,
+      "Total Votes": 6884,
+      "Electorate": 7347,
+      "Ballot Papers Issued": 2585,
+      "Ballot Papers Rejected": 24,
+      "Turnout": "35%"
+    },
+    "Results": [
+      {
+        "Candidate": "Linda Susan Castle",
+        "Party": "Liberal Democrat",
+        "Votes": 1482,
+        "Percentage": "22%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Sarah Dawn Sawyer",
+        "Party": "Liberal Democrat",
+        "Votes": 1367,
+        "Percentage": "20%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Luke Samuel Shervey",
+        "Party": "Liberal Democrat",
+        "Votes": 1109,
+        "Percentage": "16%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Kathy Williams",
+        "Party": "Conservative",
+        "Votes": 944,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jeremy Robert Base",
+        "Party": "Conservative",
+        "Votes": 755,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Suresh Arava",
+        "Party": "Conservative",
+        "Votes": 718,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Ed Farrow",
+        "Party": "Green Party",
+        "Votes": 275,
+        "Percentage": "4%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Paul Stroud",
+        "Party": "Green Party",
+        "Votes": 234,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Matson, Robinswood and White City": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 3,
+      "Total Votes": 5040,
+      "Electorate": 6530,
+      "Ballot Papers Issued": 1788,
+      "Ballot Papers Rejected": 9,
+      "Turnout": "27%"
+    },
+    "Results": [
+      {
+        "Candidate": "Alastair Chambers",
+        "Party": "Independent",
+        "Votes": 826,
+        "Percentage": "16%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Adrian Graham",
+        "Party": "Independent",
+        "Votes": 758,
+        "Percentage": "15%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Brendon Sean O`Donnell",
+        "Party": "Independent",
+        "Votes": 716,
+        "Percentage": "14%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Jen Cole",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 657,
+        "Percentage": "13%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Ross Owen Beamish",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 629,
+        "Percentage": "12%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Sam Leo Maynard",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 578,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Mary Kathleen Tibbles",
+        "Party": "Conservative",
+        "Votes": 239,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "John Frank Williams",
+        "Party": "Conservative",
+        "Votes": 205,
+        "Percentage": "4%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Denzil Williams",
+        "Party": "Conservative",
+        "Votes": 193,
+        "Percentage": "4%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Barbara Russell",
+        "Party": "Green Party",
+        "Votes": 140,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Kazol Ahmed",
+        "Party": "Socialist Labour Party",
+        "Votes": 46,
+        "Percentage": "1%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Richard Kenneth Price",
+        "Party": "Trade Unionists and Socialists Against Cuts",
+        "Votes": 29,
+        "Percentage": "1%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Aswadul Islam Fardeen",
+        "Party": "Socialist Labour Party",
+        "Votes": 24,
+        "Percentage": "0%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Moreland": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 3,
+      "Total Votes": 5308,
+      "Electorate": 6907,
+      "Ballot Papers Issued": 1949,
+      "Ballot Papers Rejected": 10,
+      "Turnout": "28%"
+    },
+    "Results": [
+      {
+        "Candidate": "Terry Pullen",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 1008,
+        "Percentage": "19%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Tree Chambers-Dubus",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 967,
+        "Percentage": "18%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Valerie Simms",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 926,
+        "Percentage": "17%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Lyn Ackroyd",
+        "Party": "Conservative",
+        "Votes": 630,
+        "Percentage": "12%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Robert John Moreland",
+        "Party": "Conservative",
+        "Votes": 439,
+        "Percentage": "8%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Harry Edward De Medici",
+        "Party": "Conservative",
+        "Votes": 393,
+        "Percentage": "7%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Eva Langrock-Bircher",
+        "Party": "Green Party",
+        "Votes": 272,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Simon Alexander Hiiemae",
+        "Party": "Independent",
+        "Votes": 259,
+        "Percentage": "5%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Paul Caiden",
+        "Party": "Liberal Democrat",
+        "Votes": 152,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Abigail Ciara Wilson",
+        "Party": "Liberal Democrat",
+        "Votes": 138,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "James Cargill",
+        "Party": "Liberal Democrat",
+        "Votes": 124,
+        "Percentage": "2%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Podsmead": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 1,
+      "Total Votes": 850,
+      "Electorate": 2454,
+      "Ballot Papers Issued": 854,
+      "Ballot Papers Rejected": 4,
+      "Turnout": "35%"
+    },
+    "Results": [
+      {
+        "Candidate": "Sebastian Richard Field",
+        "Party": "Liberal Democrat",
+        "Votes": 386,
+        "Percentage": "45%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Nicky Blatchly-Lewis",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 260,
+        "Percentage": "31%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Sarah Devaney",
+        "Party": "Conservative",
+        "Votes": 154,
+        "Percentage": "18%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Lee Powell",
+        "Party": "Independent",
+        "Votes": 50,
+        "Percentage": "6%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Quedgeley Fieldcourt": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2645,
+      "Electorate": 5431,
+      "Ballot Papers Issued": 1420,
+      "Ballot Papers Rejected": 16,
+      "Turnout": "26%"
+    },
+    "Results": [
+      {
+        "Candidate": "Stephanie Chambers",
+        "Party": "Conservative",
+        "Votes": 629,
+        "Percentage": "24%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Victoria Jane Miller",
+        "Party": "Conservative",
+        "Votes": 527,
+        "Percentage": "20%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Jane Marion Low-Gameiro",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 419,
+        "Percentage": "16%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Michael Adaarewa",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 409,
+        "Percentage": "15%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "David William Bebbington",
+        "Party": "Liberal Democrat",
+        "Votes": 330,
+        "Percentage": "12%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Timothy James Houlihan",
+        "Party": "Liberal Democrat",
+        "Votes": 302,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Foujia Sultana Metaly",
+        "Party": "Socialist Labour Party",
+        "Votes": 29,
+        "Percentage": "1%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Quedgeley Severn Vale": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2729,
+      "Electorate": 4677,
+      "Ballot Papers Issued": 1478,
+      "Ballot Papers Rejected": 9,
+      "Turnout": "32%"
+    },
+    "Results": [
+      {
+        "Candidate": "Liam John Harries",
+        "Party": "Liberal Democrat",
+        "Votes": 562,
+        "Percentage": "21%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Andy Lewis",
+        "Party": "Conservative",
+        "Votes": 417,
+        "Percentage": "15%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Trevor Duncan Howard",
+        "Party": "Liberal Democrat",
+        "Votes": 391,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Vicky Ranford",
+        "Party": "Conservative",
+        "Votes": 390,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Alison Louise Gregory",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 296,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "George Alexander Gordon",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 282,
+        "Percentage": "10%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Anna Mozol",
+        "Party": "Independent",
+        "Votes": 169,
+        "Percentage": "6%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Jack Mantle",
+        "Party": "Green Party",
+        "Votes": 69,
+        "Percentage": "3%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Hayley Louise Cook",
+        "Party": "Independent",
+        "Votes": 66,
+        "Percentage": "2%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Mark Rowney",
+        "Party": "Green Party",
+        "Votes": 50,
+        "Percentage": "2%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Dino Boyd",
+        "Party": "Independent",
+        "Votes": 37,
+        "Percentage": "1%",
+        "Outcome": "Not elected"
+      }
+    ]
+  },
+  "Tuffley": {
+    "Election Date": "2024-05-02",
+    "Voting Summary": {
+      "Seats": 2,
+      "Total Votes": 2877,
+      "Electorate": 4609,
+      "Ballot Papers Issued": 1557,
+      "Ballot Papers Rejected": 10,
+      "Turnout": "34%"
+    },
+    "Results": [
+      {
+        "Candidate": "Caroline Catherine Courtney",
+        "Party": "Liberal Democrat",
+        "Votes": 562,
+        "Percentage": "20%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Lorraine Joan Campbell",
+        "Party": "Conservative",
+        "Votes": 512,
+        "Percentage": "18%",
+        "Outcome": "Elected"
+      },
+      {
+        "Candidate": "Joshua Hanley",
+        "Party": "Liberal Democrat",
+        "Votes": 477,
+        "Percentage": "17%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Paula Lorraine Dee",
+        "Party": "Conservative",
+        "Votes": 406,
+        "Percentage": "14%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Lewis James Groves",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 328,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Lysander Coriolanus Theodore Barron",
+        "Party": "Labour or Labour & Co-Operative",
+        "Votes": 325,
+        "Percentage": "11%",
+        "Outcome": "Not elected"
+      },
+      {
+        "Candidate": "Bert Mahoney",
+        "Party": "Independent",
+        "Votes": 267,
+        "Percentage": "9%",
+        "Outcome": "Not elected"
+      }
+    ]
+  }
+}
