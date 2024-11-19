@@ -83,7 +83,7 @@
     ],
     "mean_absolute_deprivation_ranking": 78.6666666666667
   },
-  "Coney Hill": {
+  "Coney_Hill": {
     "lsoa21nm": "E05010954",
     "lsoa_number_of": 3,
     "local_authority_rank_pct": 5,
@@ -109,7 +109,7 @@
     ],
     "mean_absolute_deprivation_ranking": 18.6666666666667
   },
-  "Barton and Tredworth": {
+  "Barton_and_Tredworth": {
     "lsoa21nm": "E05010953",
     "lsoa_number_of": 7,
     "local_authority_rank_pct": 5,
@@ -261,7 +261,7 @@
     ],
     "mean_absolute_deprivation_ranking": 80.0
   },
-  "Kingsholm and Wotton": {
+  "Kingsholm_and_Wotton": {
     "lsoa21nm": "E05010958",
     "lsoa_number_of": 4,
     "local_authority_rank_pct": 5,
@@ -337,7 +337,7 @@
     ],
     "mean_absolute_deprivation_ranking": 86.8333333333333
   },
-  "Matson, Robinswood and White City": {
+  "Matson_Robinswood_and_White_City": {
     "lsoa21nm": "E05010961",
     "lsoa_number_of": 7,
     "local_authority_rank_pct": 5,
@@ -457,7 +457,7 @@
     ],
     "mean_absolute_deprivation_ranking": 24.5
   },
-  "Quedgeley Fieldcourt": {
+  "Quedgeley_Fieldcourt": {
     "lsoa21nm": "E05010964",
     "lsoa_number_of": 4,
     "local_authority_rank_pct": 5,
@@ -489,7 +489,7 @@
     ],
     "mean_absolute_deprivation_ranking": 62.0
   },
-  "Quedgeley Severn Vale": {
+  "Quedgeley_Severn_Vale": {
     "lsoa21nm": "E05010965",
     "lsoa_number_of": 4,
     "local_authority_rank_pct": 5,
