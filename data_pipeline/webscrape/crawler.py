@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-def crawl_and_save(url, output_file, node=0):
+def crawl_and_save(url, output_file, link_filter, common_domain, node=0):
     # Set up a session for making HTTP requests
     session = requests.Session()
 
@@ -28,27 +28,7 @@ def crawl_and_save(url, output_file, node=0):
         links = soup.find_all('a', href=True)
 
         links_valid = [] 
-        link_filter = {
-        "elmbridge",
-        "longlevens",
-        "kingholm",
-        "barnwood",
-        "abbeymead",
-        "hucclecote",
-        "westgate",
-        "barton",
-        "matson",
-        "abbeydale",
-        "coney",
-        "tuffley",
-        "westgate",
-        "kingsway",
-        "quedgeley",
-        "grange",
-        "podsmead",
-        "moreland",
-        "churchdown"
-        }
+
         for link in links:
             # for link_f in link_filter:
                 try:
@@ -56,7 +36,7 @@ def crawl_and_save(url, output_file, node=0):
                     for ward_name in link_filter:
                         if ward_name in link['title'].lower():
                             links_valid.append(link)
-                            link_filter.delete(ward_name)
+                            link_filter.delete(ward_name) #this isnt working
                             print("added", link['href'])
                 except:
                     pass
@@ -64,35 +44,57 @@ def crawl_and_save(url, output_file, node=0):
 
 
         for link in links_valid:
-            next_url = "https://democracy.gloucester.gov.uk/" + link['href']
+            print(link['href'])
+            next_url = common_domain + link['href']
             print(f"Crawling link: {next_url}")
-            crawl_and_save(next_url, 'output.txt', node=1)  # Recurse on the next link
+            crawl_and_save(next_url, 'output_oldham.txt', link_filter, common_domain, node=1)  # Recurse on the next link
             time.sleep(1)  # Be polite and don't overload the server
 
+
+
+link_filter = {
+    "royton north",
+    "royton south",
+    "chadderton north",
+    "chadderton south",
+    "chadderton central",
+    "hollinwood",
+    "medlock vale",
+    "werneth",
+    "coldhurst"
+}
+
 # Example usage:
-url = "https://democracy.gloucester.gov.uk/mgElectionResults.aspx?ID=17&V=1&RPID=56987338"
-output_file = "page_content.txt"
-crawl_and_save(url, output_file)
+url = "https://committees.oldham.gov.uk/mgElectionElectionAreaResults.aspx?EID=49&RPID=137099149"
+#url = "https://democracy.gloucester.gov.uk/mgElectionResults.aspx?ID=17&V=1&RPID=56987338"
+split_url = url.split(".")
+usefurl = url.split("/")
+common_domain = f"{usefurl[0]}//{usefurl[2]}/"
+
+output_file = f"page_content_oldham.txt"
+
+crawl_and_save(url, output_file, link_filter, common_domain)
 
 
-wards = [
-    "elmbridge",
-    "longlevens",
-    "kingholm",
-    "barnwood",
-    "abbeymead",
-    "hucclecote",
-    "westgate",
-    "barton",
-    "matson",
-    "abbeydale",
-    "coney",
-    "tuffley",
-    "westgate",
-    "kingsway",
-    "quedgeley",
-    "grange",
-    "podsmead",
-    "moreland",
-    "churchdown"
-]
+
+# link_filter = {
+#     "elmbridge",
+#     "longlevens",
+#     "kingholm",
+#     "barnwood",
+#     "abbeymead",
+#     "hucclecote",
+#     "westgate",
+#     "barton",
+#     "matson",
+#     "abbeydale",
+#     "coney",
+#     "tuffley",
+#     "westgate",
+#     "kingsway",
+#     "quedgeley",
+#     "grange",
+#     "podsmead",
+#     "moreland",
+#     "churchdown"
+#     }

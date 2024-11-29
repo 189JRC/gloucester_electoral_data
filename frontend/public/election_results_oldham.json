@@ -1,0 +1,451 @@
+{
+    "Chadderton Central": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 2837,
+            "Electorate": 8031,
+            "Ballot Papers Rejected": 35,
+            "Turnout": null
+        },
+        "Results": [
+            {
+                "Candidate": "Elaine Taylor",
+                "Party": "Labour",
+                "Votes": 954,
+                "Percentage": "34%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Mohammed Razon",
+                "Party": "Conservative",
+                "Votes": 935,
+                "Percentage": "33%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Lisa Roddy",
+                "Party": "Independent",
+                "Votes": 243,
+                "Percentage": "9%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Irfat Ahmed Shajahan",
+                "Party": "Independent",
+                "Votes": 221,
+                "Percentage": "8%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Peter Brown",
+                "Party": "Independent",
+                "Votes": 213,
+                "Percentage": "8%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Daniel Clayton",
+                "Party": "Green Party",
+                "Votes": 165,
+                "Percentage": "6%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Malik Rahman Abdul",
+                "Party": "Liberal Democrats",
+                "Votes": 81,
+                "Percentage": "3%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Rob Vance",
+                "Party": "Northern Heart (UK) Oldham",
+                "Votes": 25,
+                "Percentage": "1%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Chadderton North": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 2826,
+            "Electorate": 8510,
+            "Ballot Papers Rejected": 48,
+            "Turnout": null
+        },
+        "Results": [
+            {
+                "Candidate": "Eddie Moores",
+                "Party": "Labour",
+                "Votes": 1383,
+                "Percentage": "49%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Moudud Ahmed",
+                "Party": "Conservative",
+                "Votes": 824,
+                "Percentage": "29%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Dominic Cadman",
+                "Party": "Liberal Democrats",
+                "Votes": 401,
+                "Percentage": "14%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Mohammed Shah Alam",
+                "Party": "Independent",
+                "Votes": 218,
+                "Percentage": "8%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Chadderton South": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 2387,
+            "Electorate": 8925,
+            "Ballot Papers Rejected": 20,
+            "Turnout": null
+        },
+        "Results": [
+            {
+                "Candidate": "Holly Louise Harrison",
+                "Party": "Labour and Co-operative",
+                "Votes": 1127,
+                "Percentage": "47%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Karl Bardsley",
+                "Party": "Conservative",
+                "Votes": 597,
+                "Percentage": "25%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Mohammed Ali",
+                "Party": "Independent",
+                "Votes": 272,
+                "Percentage": "11%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Andy Clare",
+                "Party": "Reform UK",
+                "Votes": 259,
+                "Percentage": "11%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Michael David Scholes",
+                "Party": "Liberal Democrats",
+                "Votes": 132,
+                "Percentage": "6%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Coldhurst": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 4214,
+            "Electorate": 9841,
+            "Ballot Papers Rejected": 67,
+            "Turnout": null
+        },
+        "Results": [
+            {
+                "Candidate": "Montaz Ali Azad",
+                "Party": "Independent",
+                "Votes": 2304,
+                "Percentage": "55%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Ruji Sapna Surjan",
+                "Party": "Labour",
+                "Votes": 1329,
+                "Percentage": "32%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Rachel Pendlebury",
+                "Party": "Liberal Democrats",
+                "Votes": 193,
+                "Percentage": "5%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Mustafa Ahmed Mustak",
+                "Party": "Independent",
+                "Votes": 139,
+                "Percentage": "3%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Sheraz Gondal",
+                "Party": "Green Party",
+                "Votes": 136,
+                "Percentage": "3%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Muhammed Azizur Rahman Dara",
+                "Party": "Conservative",
+                "Votes": 113,
+                "Percentage": "3%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Hollinwood": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 2533,
+            "Electorate": 8687,
+            "Ballot Papers Issued": 2533,
+            "Ballot Papers Rejected": 18,
+            "Turnout": "29%"
+        },
+        "Results": [
+            {
+                "Candidate": "Naseem Aslam",
+                "Party": "Labour",
+                "Votes": 846,
+                "Percentage": "33%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Mohammed Irfan",
+                "Party": "Independent",
+                "Votes": 812,
+                "Percentage": "32%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "John Lawrence",
+                "Party": "National Housing Party Our People First",
+                "Votes": 173,
+                "Percentage": "7%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Mohammad Riaj Alom",
+                "Party": "Conservative",
+                "Votes": 172,
+                "Percentage": "7%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Ewan Edge",
+                "Party": "Independent",
+                "Votes": 146,
+                "Percentage": "6%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Ian Whitehead",
+                "Party": "Independent",
+                "Votes": 139,
+                "Percentage": "5%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Jason Bromley",
+                "Party": "Green Party",
+                "Votes": 132,
+                "Percentage": "5%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Roger Malham Blackmore",
+                "Party": "Liberal Democrats",
+                "Votes": 113,
+                "Percentage": "4%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Medlock Vale": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 3059,
+            "Electorate": 8695,
+            "Ballot Papers Issued": 3059,
+            "Ballot Papers Rejected": 43,
+            "Turnout": "35%"
+        },
+        "Results": [
+            {
+                "Candidate": "Umar Nasheen",
+                "Party": "Labour and Co-operative",
+                "Votes": 1374,
+                "Percentage": "45%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Shamas A Altaf",
+                "Party": "Independent",
+                "Votes": 987,
+                "Percentage": "32%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Shona Farnworth",
+                "Party": "Liberal Democrats",
+                "Votes": 300,
+                "Percentage": "10%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Muhammad Yasir",
+                "Party": "Independent",
+                "Votes": 226,
+                "Percentage": "7%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Akhtar Hussain",
+                "Party": "Conservative",
+                "Votes": 172,
+                "Percentage": "6%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Royton North": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 2900,
+            "Electorate": 8555,
+            "Ballot Papers Issued": 2900,
+            "Ballot Papers Rejected": 26,
+            "Turnout": "34%"
+        },
+        "Results": [
+            {
+                "Candidate": "Lewis Quigg",
+                "Party": "Conservative",
+                "Votes": 1458,
+                "Percentage": "50%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Clint Phythian",
+                "Party": "Labour",
+                "Votes": 1037,
+                "Percentage": "36%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Miranda Meadowcroft",
+                "Party": "Green Party",
+                "Votes": 231,
+                "Percentage": "8%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Jeffrey Garner",
+                "Party": "Liberal Democrats",
+                "Votes": 174,
+                "Percentage": "6%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Royton South": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 2383,
+            "Electorate": 7655,
+            "Ballot Papers Issued": 2383,
+            "Ballot Papers Rejected": 24,
+            "Turnout": "31%"
+        },
+        "Results": [
+            {
+                "Candidate": "Jade Hughes",
+                "Party": "Independent",
+                "Votes": 1200,
+                "Percentage": "50%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Steven Bashforth",
+                "Party": "Labour",
+                "Votes": 877,
+                "Percentage": "37%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Tom Penketh",
+                "Party": "Liberal Democrats",
+                "Votes": 155,
+                "Percentage": "7%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Jim Stidworthy",
+                "Party": "Green Party",
+                "Votes": 151,
+                "Percentage": "6%",
+                "Outcome": "Not elected"
+            }
+        ]
+    },
+    "Werneth": {
+        "Election Date": "2024-05-02",
+        "Voting Summary": {
+            "Seats": 1,
+            "Total Votes": 4235,
+            "Electorate": 7646,
+            "Ballot Papers Issued": 4235,
+            "Ballot Papers Rejected": 77,
+            "Turnout": "55%"
+        },
+        "Results": [
+            {
+                "Candidate": "Nyla Ibrahim",
+                "Party": "Independent",
+                "Votes": 2362,
+                "Percentage": "56%",
+                "Outcome": "Elected"
+            },
+            {
+                "Candidate": "Amjad Ali",
+                "Party": "Independent",
+                "Votes": 1471,
+                "Percentage": "35%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Hamza Uddin",
+                "Party": "Liberal Democrats",
+                "Votes": 227,
+                "Percentage": "5%",
+                "Outcome": "Not elected"
+            },
+            {
+                "Candidate": "Mohammed Salik Miah",
+                "Party": "Conservative",
+                "Votes": 175,
+                "Percentage": "4%",
+                "Outcome": "Not elected"
+            }
+        ]
+    }
+}
