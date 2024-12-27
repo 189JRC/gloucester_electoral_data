@@ -193,5 +193,6 @@ cython_debug/
 DONTREADME.md
 
 candidates*
-data_pipeline/
+research/*
+data_pipeline/*
 db/
