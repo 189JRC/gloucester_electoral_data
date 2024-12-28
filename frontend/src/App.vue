@@ -4,7 +4,7 @@ import ExperimentalComponent from './components/ExperimentalComponent.vue'
 </script>
 
 <template>
-  <MapComponent/>
+  <ExperimentalComponent/>
    <!-- <ExperimentalComponent/> -->
   <!-- <div class="mt-5 p-6 max-w-sm mx-auto dark:bg-gray-800 rounded-xl shadow-md flex items-center space-x-4">
     <div class="flex-shrink-0">

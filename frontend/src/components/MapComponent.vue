@@ -727,7 +727,7 @@ export default {
 
             this.path = d3.geoPath().projection(this.projection);
 
-            await d3.json("/gloucester_wards.geojson")
+            await d3.json("/constituencies_2024.geojson")
                 .then(data => {
                     const svg = d3.select(this.$refs.map);
 
