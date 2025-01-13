@@ -1,0 +1,304 @@
+{
+    "sun": {
+        "full_name": "save_us_now"
+    },
+    "wrp": {
+        "full_name": "workers_revolutionary_party"
+    },
+    "mrlp": {
+        "full_name": "official_monster_raving_loony_party"
+    },
+    "br": {
+        "full_name": "blue_revolution"
+    },
+    "awa": {
+        "full_name": "abolish_the_welsh_assembly_party"
+    },
+    "sdlp": {
+        "full_name": "social_democratic_&_labour_party"
+    },
+    "fa": {
+        "full_name": "freedom_alliance"
+    },
+    "idd": {
+        "full_name": "independents_for_direct_democracy"
+    },
+    "cfly": {
+        "full_name": "confelicity"
+    },
+    "ti": {
+        "full_name": "taking_the_initiative_party"
+    },
+    "dfc": {
+        "full_name": "democracy_for_chorley"
+    },
+    "wep": {
+        "full_name": "women's_equality_party"
+    },
+    "svr": {
+        "full_name": "sovereignty"
+    },
+    "tuv": {
+        "full_name": "traditional_unionist_voice"
+    },
+    "chp": {
+        "full_name": "christian_party},_proclaiming_christ's_lordship"
+    },
+    "ppnv": {
+        "full_name": "the_peace_party"
+    },
+    "mtw9": {
+        "full_name": "the_mitre_tw9"
+    },
+    "inet": {
+        "full_name": "independent_network"
+    },
+    "sg": {
+        "full_name": "shared_ground"
+    },
+    "pow": {
+        "full_name": "party_of_women"
+    },
+    "ukip": {
+        "full_name": "uk_independence_party"
+    },
+    "sl": {
+        "full_name": "socialist_labour_party"
+    },
+    "hi": {
+        "full_name": "hampshire_independents"
+    },
+    "nonpol": {
+        "full_name": "new_open_non-political_organised_leadership"
+    },
+    "sf": {
+        "full_name": "sinn_féin"
+    },
+    "lpuk": {
+        "full_name": "libertarian_party"
+    },
+    "sdp": {
+        "full_name": "social_democratic_party"
+    },
+    "yrks": {
+        "full_name": "the_yorkshire_party"
+    },
+    "apni": {
+        "full_name": "alliance"
+    },
+    "indy": {
+        "full_name": "independent",
+        "colour": "brown"
+    },
+    "lnin": {
+        "full_name": "lincolnshire_independents"
+    },
+    "nhap": {
+        "full_name": "national_health_action_party"
+    },
+    "pbpa": {
+        "full_name": "people_before_profit_alliance"
+    },
+    "rbd": {
+        "full_name": "rebooting_democracy"
+    },
+    "comm_l": {
+        "full_name": "communist_league_election_campaign"
+    },
+    "psy": {
+        "full_name": "psychedelic_movement"
+    },
+    "kirg": {
+        "full_name": "kingston_independent_residents_group"
+    },
+    "transform": {
+        "full_name": "transform_party"
+    },
+    "wpb": {
+        "full_name": "workers_party_of_britain"
+    },
+    "sda": {
+        "full_name": "south_devon_alliance"
+    },
+    "cbp": {
+        "full_name": "count_binface_party"
+    },
+    "cnsn": {
+        "full_name": "consensus"
+    },
+    "tusc": {
+        "full_name": "trade_unionist_and_socialist_coalition"
+    },
+    "cli": {
+        "full_name": "climate_party"
+    },
+    "ukv": {
+        "full_name": "uk_voice"
+    },
+    "pip": {
+        "full_name": "portsmouth_independent_party"
+    },
+    "cpa": {
+        "full_name": "christian_peoples_alliance_party"
+    },
+    "fvp": {
+        "full_name": "fairer_voting_party"
+    },
+    "cf": {
+        "full_name": "communist_future"
+    },
+    "green": {
+        "full_name": {
+            "full_name": "green_party"
+        },
+        "colour": "green"
+    },
+    "ccla": {
+        "full_name": "cross-community_labour_alternative"
+    },
+    "lci": {
+        "full_name": "liverpool_community_independents"
+    },
+    "dup": {
+        "full_name": "democratic_unionist_party"
+    },
+    "bup": {
+        "full_name": "british_unionist_party_b.u.p."
+    },
+    "ed": {
+        "full_name": "english_democrats"
+    },
+    "sep": {
+        "full_name": "socialist_equality_party"
+    },
+    "ecp": {
+        "full_name": "english_constitution_party"
+    },
+    "alba": {
+        "full_name": "alba_party"
+    },
+    "ypuk": {
+        "full_name": "the_yoruba_party_in_the_uk"
+    },
+    "ash": {
+        "full_name": "ashfield_independents"
+    },
+    "nep": {
+        "full_name": "the_north_east_party"
+    },
+    "ol": {
+        "full_name": "one_leicester"
+    },
+    "snp": {
+        "full_name": "scottish_national_party",
+        "colour": "yellow"
+    },
+    "anwp": {
+        "full_name": "animal_welfare_party"
+    },
+    "lab": {
+        "full_name": "labour",
+        "colour": "rgba(255, 0, 0, 0.7)"
+    },
+    "ld": {
+        "full_name": "liberal_democrats",
+        "colour": "orange"
+    },
+    "vuk": {
+        "full_name": "volt_united_kingdom"
+    },
+    "iak": {
+        "full_name": "independent_alliance_(kent)"
+    },
+    "si": {
+        "full_name": "swale_independents"
+    },
+    "spgb": {
+        "full_name": "the_socialist_party_of_great_britain"
+    },
+    "ioa": {
+        "full_name": "independent_oxford_alliance"
+    },
+    "con": {
+        "full_name": "conservative",
+        "colour": "blue"
+    },
+    "sfan": {
+        "full_name": "stockport_fights_austerity_no_to_cuts"
+    },
+    "cp": {
+        "full_name": "the_common_people"
+    },
+    "hpuk": {
+        "full_name": "heritage_party"
+    },
+    "uup": {
+        "full_name": "ulster_unionist_party"
+    },
+    "pro": {
+        "full_name": "propel"
+    },
+    "isp": {
+        "full_name": "independence_for_scotland_party"
+    },
+    "ruk": {
+        "full_name": "reform_uk",
+        "colour": "lightblue"
+    },
+    "sj": {
+        "full_name": "social_justice_party"
+    },
+    "adf": {
+        "full_name": "alliance_for_democracy_and_freedom"
+    },
+    "scot_libt": {
+        "full_name": "scottish_libertarian_party"
+    },
+    "ags": {
+        "full_name": "alliance_for_green_socialism"
+    },
+    "aont": {
+        "full_name": "aontú"
+    },
+    "cg": {
+        "full_name": "common_good_party"
+    },
+    "bdp": {
+        "full_name": "british_democratic_party"
+    },
+    "comm": {
+        "full_name": "communist_party_of_britain"
+    },
+    "nip": {
+        "full_name": "newham_independents_party"
+    },
+    "lib": {
+        "full_name": "liberal"
+    },
+    "pcfirg": {
+        "full_name": "putting_crewe_first},_independent_residents_group"
+    },
+    "tfb": {
+        "full_name": "true_&_fair_party"
+    },
+    "sfp": {
+        "full_name": "scottish_family_party"
+    },
+    "pc": {
+        "full_name": "scottish_national_party",
+        "colour": "darkgreen"
+    },
+    "ssp": {
+        "full_name": "scottish_socialist_party"
+    },
+    "candi": {
+        "full_name": "chesterfield_and_north_derbyshire_independents_(candi)"
+    },
+    "reu": {
+        "full_name": "rejoin_eu"
+    },
+    "speaker": {
+        "full_name": "scottish_national_party",
+        "colour": "rgba(0},0},255},0.3)"
+    }
+}
