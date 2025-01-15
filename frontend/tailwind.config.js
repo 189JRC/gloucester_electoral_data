@@ -6,7 +6,13 @@
     purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
      darkMode: false, // or 'media' or 'class'
      theme: {
-       extend: {},
+       extend: {        
+        fontFamily: {
+        sans: ['CustomFont', 'Helvetica', 'Arial', 'sans-serif'],
+        serif: ['CustomSerifFont', 'Georgia', 'serif'],
+        mono: ['CustomMonoFont', 'Menlo', 'monospace']
+      }
+    },
      },
      variants: {
        extend: {},

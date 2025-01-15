@@ -1,78 +1,44 @@
 <template>
+    <div class="flex justify-center mt-2 border-gray-500">
+        <button @click="reset_constituency_map" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">General
+            Election Results</button>
+        <button @click="apply_marginal_seats" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">Marginals
+            Seats</button>
+            <button @click="change_colour_setting" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl"> 
+                <span v-if="colour_setting">Neutralise Colours</span>
+                <span v-if="!colour_setting">Show party Colours</span>
+            </button>
+    </div>
     <div class="flex mt-5">
-        <div class="flex-1 h-1/2 w-1/3 px-5 mx-auto">
-            <div class="border-2 border-gray-300 bg-gray-50 mt-5">
-                <svg ref="map" width="1200" height="800"></svg>
+        <div class="flex-col justify-center w-1/3 px-5">
+            <div id="ward-name" class="flex-1">
+                <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center">
+                    <br>
+                    <ElectionDataCard :selected_constituency="selected_constituency"
+                        @update-seat-threshold="updated_margin"
+                        @turnout-threshold-changed="updated_turnout"/>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1 h-1/2 w-1/2 px-5">
+            <div class="ml-12">
+                <!-- The viewBox should start at (cx - rx, cy - ry) and extend to (width, height) -->
+                <svg ref="map" width="1325" height="1325" viewBox="10 0 900 900">
+                </svg>
             </div>
             <div id="tooltip"
                 style="position: absolute; visibility: hidden; background: white; padding: 5px; border: 1px solid black;">
             </div>
-            <div class="flex justify-center mt-2 border-gray-500">
-                <button @click="reset_constituency_map"
-                    class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">General Election Results</button>
-                <button @click="apply_marginal_seats"
-                    class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">Marginals Seats</button>
-            </div>
         </div>
-        <div class="flex-col justify-center w-1/2 px-5">
+        <div class="flex-col justify-center w-1/3 px-5">
             <div id="ward-name" class="flex-1">
-                <div class="border-4 border-gray-700 text-xl p-5 text-center">
+                <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center">
                     <br>
-                    <ConstituencyDataCard v-if="show_election_datacard" 
-                    :selected_constituency="selected_constituency"
-                    
-                    :show_margin_scale="show_margin_scale"
-                    @selected-margin-changed="updated_margin"/>
+                    <ConstituencyDataCard v-if="show_election_datacard" :selected_constituency="selected_constituency"
+                        :show_margin_scale="show_margin_scale"/>
                     <!-- :seat_count="seat_count" -->
                 </div>
             </div>
-            <!-- <div class="flex flex-row">
-                
-                <div id="council-election-results" class="flex-1">
-                    
-                    <div class="mt-5 text-center border-l border-b border-t border-gray-700 text-xl py-2">
-                    
-                    </div>
-
-                    <div class="border-l border-gray-700 pl-3 py-2">
-                    </div>
-
-                    <hr class="border-t-3 border-gray-500">
-
-                    <div>
-                        <div v-if="election_datacard" class="text-center border-l border-b border-gray-700 text-xl">
-                            <strong>Elections Results</strong><br>
-                            <div v-for="(label, key) in mapping" :key="key" class="text-left">
-                                <strong>{{ label }}:</strong> {{ election_datacard[key] }}
-                            </div>
-                        </div>
-                        <div v-if="marginals_datacard" class="text-center border-l border-b border-gray-700 text-xl">
-                            <strong>Marginals Results</strong><br>
-                            <div class="text-left">
-                                <div>Constituency: {{ marginals_datacard['first']['constituency_name'] }}</div>
-                                <div>Party: {{ marginals_datacard['first']['party_name'] }}</div>
-                                <div>2nd place: {{ marginals_datacard['second']['party_name'] }}</div>
-                                <div>Margin: {{ marginals_datacard['first']['votes'] }} beat {{ marginals_datacard['second']['votes'] }} </div>
-                                <div>Vote diff: {{ marginals_datacard['first']['vote_diff'] }}</div>
-                            </div>
-                            <br>
-                            <div class="text-left">
-                                {{ marginals_datacard['first'] }}
-                            </div>
-                            <br>
-                            <div class="text-left">
-                                {{ marginals_datacard['second'] }}
-                            </div>
-                        </div>
-            
-                        <div class="overflow-auto max-h-1/2" style="height: 50vh;">
-
-                        </div>
-                    </div>
-                </div>
-                <div id="brexit-referendum-results" class="flex-1">
-                </div>
-            </div> -->
         </div>
     </div>
     <div class="flex justify-center items-center">
@@ -86,10 +52,12 @@ import * as d3 from 'd3';
 import party_mapping from '@/js_object_data/party_mapping.json';
 import { area } from 'd3';
 import ConstituencyDataCard from './ConstituencyDataCard.vue';
+import ElectionDataCard from './ElectionDataCard.vue';
 
 export default {
     components: {
-        ConstituencyDataCard
+        ConstituencyDataCard,
+        ElectionDataCard
     },
     data() {
         return {
@@ -98,7 +66,10 @@ export default {
             selected_constituency: null,
             seat_count: null,
             show_margin_scale: false,
+            
+            selected_margin: 5000,
             //other
+            colour_setting: true,
             party_mapping,
             marginals_datacard: null,
             election_datacard: null,
@@ -132,17 +103,16 @@ export default {
             // get list of all parties with their full name mapping
             const seat_count = {}
             Object.entries(election_winners).forEach(([location_id, election_results]) => {
-                    if (seat_count[election_winners[location_id]['winning_party']]) {
-                        seat_count[election_winners[location_id]['winning_party']] += 1
-                    } else {
-                        seat_count[election_winners[location_id]['winning_party']] = 1
-                    }
-                });
-                this.seat_count = seat_count
-            },
+                if (seat_count[election_winners[location_id]['winning_party']]) {
+                    seat_count[election_winners[location_id]['winning_party']] += 1
+                } else {
+                    seat_count[election_winners[location_id]['winning_party']] = 1
+                }
+            });
+            this.seat_count = seat_count
+        },
         apply_marginal_seats() {
-            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats')
-            this.show_margin_scale = true
+            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.colour_setting)
         },
         async fetch_candidate_results_json() {
             //Fetch election data for rendering onto hexmap
@@ -158,18 +128,20 @@ export default {
             this.init_constituency_map(this.geo_data, this.election_winners)
             this.count_party_seats(this.election_winners)
         },
-        async init_constituency_map(geo_data, election_winners, type = 'election_results', marginal_threshold=5000) {
-            console.log(type)
+        async init_constituency_map(geo_data, election_winners, type = 'election_results', marginal_threshold = 5000) {
+            
+            console.log(this.colour_setting)
             const svg = d3.select(this.$refs.map);
             svg.selectAll("path").remove();
             this.projection = d3.geoMercator()
                 .center([0.04225, -0.05935])
-                .scale(455000)
-                .translate([400, 500]);
+                .scale(450000)
+                .translate([320, 450]);
 
             this.path = d3.geoPath().projection(this.projection);
 
-            function apply_party_colour(geodata_reference_point, candidate_data, party_mapping, marginal_threshold) {
+            function apply_party_colour(geodata_reference_point, candidate_data, party_mapping, marginal_threshold, colour_setting) {
+                console.log(colour_setting)
                 const area_id = geodata_reference_point.properties.id
                 if (type === 'election_results') {
                     //this takes winner for each constituency and maps it to find the colour
@@ -178,53 +150,41 @@ export default {
                     } catch {
                         return "grey"
                     }
-                } else {
+                } else if (type === 'turnout_threshold') {
+                                
+                    const turnout = (candidate_data[area_id]['votes_counted']/
+                                    candidate_data[area_id]['electorate'] *
+                                100).toFixed(2)
+                    if (turnout > marginal_threshold) {
+                        if (colour_setting === false) {
+                            return "lightgreen"
+                        } else {
+                            return party_mapping[candidate_data[area_id]['winning_party'].toLowerCase()]['colour']
+                        }
+                    }
+            } else {
                     const majority = candidate_data[area_id]['majority']
-                    console.log(marginal_threshold)
                     if (majority < marginal_threshold) {
-                        return "lightgreen"
+                        if (colour_setting === false) {
+                            return "lightgreen"
+                        } else {
+                            return party_mapping[candidate_data[area_id]['winning_party'].toLowerCase()]['colour']
+                        }
+                        
                     } else {
                         return "grey"
                     }
-                    console.log("HI", candidate_data[area_id]['majority'], party_mapping)
-                    return "green"
-                // } else {
-                    // try {
-                        // console.log(geodata_reference_point[area]['first'])
-                        // const majority = geodata_reference_point
-                        // console.log(majority)
-                        // // const greenShades = ["#d4f7d4", "#a8e6a8", "#74d474", "#3fc13f", "#1a9d1a"];
-                        // if (voteDiff < 1000) {
-                        //     return greenShades[0]; // Lightest green
-                        // }
-                        // if (voteDiff < 2000) {
-                        //     return greenShades[1];
-                        // }
-                        // if (voteDiff < 3000) {
-                        //     return greenShades[2];
-                        // }
-                        // if (voteDiff < 4000) {
-                        //     return greenShades[3];
-                        // }
-                        // if (voteDiff < 5000) {
-                        //     return greenShades[4]; // Darkest green
-                        // }
-                        // if (voteDiff < 10000) {
-                        //     return 'orange'; // Darkest green
-                        // }
-                    //     return "lightgrey"; // Default for other cases
-                    // } catch {
-                    //     return "lightgray"
-                    // }
                 }
             }
             const ctx_party_mapping = this.party_mapping
+            const colour_setting = this.colour_setting
             svg.selectAll("path")
                 .data(geo_data.features)
                 .enter()
                 .append("path")
                 .attr("class", "constituency")
                 .attr("d", this.path)
+                .attr("clip-path", "url(#ovalClip)")
                 .style("fill", "gray")
                 .style("stroke", "white")
                 .style("stroke-width", 0.5)
@@ -240,29 +200,40 @@ export default {
                     d3.select(this).style("stroke-width", 0.5)
                 })
                 .on("click", (event, geo_point) => {
-                    this.scope_test(event, geo_point, election_winners, type)
+                    this.scope_test(geo_point, election_winners)
                 })
-                .style("fill", geo_point => apply_party_colour(geo_point, election_winners, ctx_party_mapping, marginal_threshold));
+                .style("fill", geo_point => apply_party_colour(geo_point, election_winners, ctx_party_mapping, marginal_threshold, colour_setting));
         },
-        scope_test(event, geo_point, election_winners, type) {
-            //geo_point.properties.id is this constituency id
-            this.selected_constituency = election_winners[geo_point.properties.id]            
+        scope_test(geo_point, election_winners) {
+            console.log(geo_point, election_winners)
+            this.selected_constituency = election_winners[geo_point.properties.id]
             this.show_election_datacard = true
-
-            // this.marginals_datacard = null
-
-            // if (type === "election_results") {
-            //     const winner_details = election_winners[geo_point.properties.id]
-            //     this.election_datacard = winner_details
-            // } else {
-            //     const winner_details = election_winners[geo_point.properties.id]
-            //     console.log(winner_details)
-            //     this.marginals_datacard = winner_details
-            // }
         },
-        updated_margin(val) {
-            console.log("264", val)
-            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', val)
+        updated_margin(selected_margin) {
+            this.selected_margin = selected_margin
+            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', selected_margin)
+        },
+        updated_turnout(turnout_threshold) {
+            this.turnout_threshold = turnout_threshold
+            this.init_constituency_map(this.geo_data, this.election_winners, 'turnout_threshold', turnout_threshold)
+        },
+        colour_neutralise() {
+            this.neutral_colours = !this.neutral_colours
+            console.log(this.neutral_colours)
+            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin)
+        },
+        change_colour_setting() {
+            if (this.colour_setting === false) {
+                this.colour_setting = true
+                // this.neutral_colours = false
+                this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin)
+            } else {
+                this.colour_setting = false
+                // this.neutral_colours = true
+                this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin)
+
+            }
+
         }
     },
 
@@ -272,6 +243,7 @@ export default {
         election_winners(election_winners_fetched) {
             if (election_winners_fetched && this.geo_data) {
                 this.init_constituency_map(election_winners_fetched, this.geo_data);
+                this.scope_test(this.geo_data['features'][0], election_winners_fetched)
             }
         },
         geo_data(geo_data_fetched) {
