@@ -7,5 +7,6 @@
 
 
 html {
-  font-family: 'CustomFont', sans-serif;
+  font-family: monospace;
+  font-size: large;
 }

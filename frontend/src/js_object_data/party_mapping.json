@@ -72,7 +72,8 @@
         "full_name": "new_open_non-political_organised_leadership"
     },
     "sf": {
-        "full_name": "sinn_féin"
+        "full_name": "sinn_féin",
+        "colour": "lightgreen"
     },
     "lpuk": {
         "full_name": "libertarian_party"
@@ -151,7 +152,7 @@
         "full_name": {
             "full_name": "green_party"
         },
-        "colour": "green"
+        "colour": "lightgreen"
     },
     "ccla": {
         "full_name": "cross-community_labour_alternative"

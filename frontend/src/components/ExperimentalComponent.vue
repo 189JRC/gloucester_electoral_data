@@ -1,13 +1,6 @@
 <template>
     <div class="flex justify-center mt-2 border-gray-500">
-        <button @click="reset_constituency_map" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">General
-            Election Results</button>
-        <button @click="apply_marginal_seats" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">Marginals
-            Seats</button>
-            <button @click="change_colour_setting" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl"> 
-                <span v-if="colour_setting">Neutralise Colours</span>
-                <span v-if="!colour_setting">Show party Colours</span>
-            </button>
+        
     </div>
     <div class="flex mt-5">
         <div class="flex-col justify-center w-1/3 px-5">
@@ -15,11 +8,17 @@
                 <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center">
                     <br>
                     <ElectionDataCard :selected_constituency="selected_constituency"
-                        @update-seat-threshold="updated_margin"
-                        @turnout-threshold-changed="updated_turnout"/>
+                        @update-seat-threshold="updated_margin" @turnout-threshold-changed="updated_turnout" />
                 </div>
             </div>
+            <button @click="reset_constituency_map" class="text-3xl mt-4 p-2 bg-gray-100 border-2 border-black mx-2">
+                Reset Map</button>
+        <button @click="change_colour_setting" class="text-3xl mt-4 p-2 bg-gray-100 border-2 border-black mx-2">
+            <span v-if="colour_setting">Neutralise Colours</span>
+            <span v-if="!colour_setting">Show Party Colours</span>
+        </button>
         </div>
+        
         <div class="flex-1 h-1/2 w-1/2 px-5">
             <div class="ml-12">
                 <!-- The viewBox should start at (cx - rx, cy - ry) and extend to (width, height) -->
@@ -35,7 +34,7 @@
                 <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center">
                     <br>
                     <ConstituencyDataCard v-if="show_election_datacard" :selected_constituency="selected_constituency"
-                        :show_margin_scale="show_margin_scale"/>
+                        :show_margin_scale="show_margin_scale" />
                     <!-- :seat_count="seat_count" -->
                 </div>
             </div>
@@ -66,8 +65,9 @@ export default {
             selected_constituency: null,
             seat_count: null,
             show_margin_scale: false,
-            
+
             selected_margin: 5000,
+            turnout_threshold: 50,
             //other
             colour_setting: true,
             party_mapping,
@@ -128,9 +128,15 @@ export default {
             this.init_constituency_map(this.geo_data, this.election_winners)
             this.count_party_seats(this.election_winners)
         },
-        async init_constituency_map(geo_data, election_winners, type = 'election_results', marginal_threshold = 5000) {
-            
-            console.log(this.colour_setting)
+        async init_constituency_map(
+                geo_data, 
+                election_winners, 
+                type='election_results', 
+                marginal_threshold=5000,
+                turnout_threshold=50
+            ) {
+
+            // console.log(this.colour_setting)
             const svg = d3.select(this.$refs.map);
             svg.selectAll("path").remove();
             this.projection = d3.geoMercator()
@@ -140,8 +146,16 @@ export default {
 
             this.path = d3.geoPath().projection(this.projection);
 
-            function apply_party_colour(geodata_reference_point, candidate_data, party_mapping, marginal_threshold, colour_setting) {
-                console.log(colour_setting)
+            function apply_party_colour(
+                                    geodata_reference_point,
+                                    candidate_data,
+                                    party_mapping,
+                                    marginal_threshold,
+                                    turnout_threshold,
+                                    colour_setting
+                                    ) {
+
+
                 const area_id = geodata_reference_point.properties.id
                 if (type === 'election_results') {
                     //this takes winner for each constituency and maps it to find the colour
@@ -150,29 +164,35 @@ export default {
                     } catch {
                         return "grey"
                     }
-                } else if (type === 'turnout_threshold') {
-                                
-                    const turnout = (candidate_data[area_id]['votes_counted']/
-                                    candidate_data[area_id]['electorate'] *
-                                100).toFixed(2)
-                    if (turnout > marginal_threshold) {
-                        if (colour_setting === false) {
-                            return "lightgreen"
-                        } else {
-                            return party_mapping[candidate_data[area_id]['winning_party'].toLowerCase()]['colour']
-                        }
-                    }
-            } else {
+                    // } else if (type === 'turnout_threshold') {
+                    //                 // trying to combine this with majority threshold (else case)
+                    //     const turnout = (candidate_data[area_id]['votes_counted']/
+                    //                     candidate_data[area_id]['electorate'] *
+                    //                 100).toFixed(2)
+                    //     if (turnout > marginal_threshold) {
+                    //         if (colour_setting === false) {
+                    //             return "lightgreen"
+                    //         } else {
+                    //             return party_mapping[candidate_data[area_id]['winning_party'].toLowerCase()]['colour']
+                    //         }
+                    //     }
+                } else {
+                    //get turnout and majority for each seat
                     const majority = candidate_data[area_id]['majority']
-                    if (majority < marginal_threshold) {
+
+                    const turnout = (candidate_data[area_id]['votes_counted'] /
+                        candidate_data[area_id]['electorate'] *
+                        100).toFixed(2)
+
+                    if (majority < marginal_threshold && turnout < turnout_threshold) {
                         if (colour_setting === false) {
                             return "lightgreen"
                         } else {
                             return party_mapping[candidate_data[area_id]['winning_party'].toLowerCase()]['colour']
                         }
-                        
+
                     } else {
-                        return "grey"
+                        return "black"
                     }
                 }
             }
@@ -202,35 +222,41 @@ export default {
                 .on("click", (event, geo_point) => {
                     this.scope_test(geo_point, election_winners)
                 })
-                .style("fill", geo_point => apply_party_colour(geo_point, election_winners, ctx_party_mapping, marginal_threshold, colour_setting));
+                .style("fill", geo_point =>
+                                apply_party_colour(
+                                    geo_point,
+                                    election_winners,
+                                    ctx_party_mapping,
+                                    marginal_threshold,
+                                    turnout_threshold,
+                                    colour_setting
+                                ));
         },
         scope_test(geo_point, election_winners) {
-            console.log(geo_point, election_winners)
             this.selected_constituency = election_winners[geo_point.properties.id]
             this.show_election_datacard = true
         },
         updated_margin(selected_margin) {
             this.selected_margin = selected_margin
-            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', selected_margin)
+            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin, this.turnout_threshold)
         },
         updated_turnout(turnout_threshold) {
             this.turnout_threshold = turnout_threshold
-            this.init_constituency_map(this.geo_data, this.election_winners, 'turnout_threshold', turnout_threshold)
+            this.init_constituency_map(this.geo_data, this.election_winners, 'turnout_threshold', this.selected_margin, this.turnout_threshold)
         },
         colour_neutralise() {
             this.neutral_colours = !this.neutral_colours
-            console.log(this.neutral_colours)
-            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin)
+            this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin, this.turnout_threshold)
         },
         change_colour_setting() {
             if (this.colour_setting === false) {
                 this.colour_setting = true
                 // this.neutral_colours = false
-                this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin)
+                this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin, this.turnout_threshold)
             } else {
                 this.colour_setting = false
                 // this.neutral_colours = true
-                this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin)
+                this.init_constituency_map(this.geo_data, this.election_winners, 'marginal_seats', this.selected_margin, this.turnout_threshold)
 
             }
 

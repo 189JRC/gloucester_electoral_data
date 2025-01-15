@@ -2,21 +2,23 @@
     <div class="flex flex-row">
         <div id="council-election-results" class="flex-1">
             <!--TODO: Conditional render of colour from party selected_constituency['winning_party']-->
-            <div class="text-center border border-gray-700 text-xl py-4">
-                <strong class="text-4xl">July 2024 Election</strong>
+            <div class="text-center border border-gray-700  py-4">
+                <strong class="text-4xl">{{ selected_constituency.constituency_name }}</strong>
+                <p class="text-2xl">Region: <strong>{{ selected_constituency.region }}</strong></p>
             </div>
             <div
-                class="bg-blue-500 mt-5 text-2xl text-center border-l border-b border-t border-r border-gray-700 text-xl py-2">
-                <p>Constituency: <strong>{{ selected_constituency.constituency_name }}</strong></p>
-                <p>Region: <strong>{{ selected_constituency.region }}</strong></p>
-                MP: <strong>{{ selected_constituency.candidates[0].full_name }}</strong><br>
+                class="text-2xl mt-5 text-center border-l border-b border-t border-r border-blue-700 py-2">
+                <p>MP: <strong>{{ selected_constituency.candidates[0].full_name }}</strong><br></p>
+                <p>Party: <strong>{{ selected_constituency.winning_party }}</strong></p>
+                
                 <!-- <p>Designation: <strong> {{ selected_constituency.const_designation }}</strong></p> -->
             </div>
-            <div class="text-2xl border-l border-r border-b border-gray-700 pl-3 pr-3 py-2">
-                Result: <strong>{{ selected_constituency.result_summary }}</strong>
-                <br>
+            <div class="text-2xl 
+            border-l border-r border-b border-gray-700 pl-3 pr-3 py-2">
+                <!-- Result: <strong>{{ selected_constituency.result_summary }}</strong> -->
+                
                 Electorate: <strong>{{ selected_constituency.electorate }}</strong><br>
-                Turnout: <strong>{{ selected_constituency.votes_counted }} / {{ (selected_constituency.votes_counted /
+                Turnout: <strong>{{ (selected_constituency.votes_counted /
                     selected_constituency.electorate *
                     100).toFixed(2) }}%</strong><br>
                 Majority: <strong>{{ selected_constituency.majority }} votes / {{
@@ -47,16 +49,17 @@
     </div>
     <div class='text-2xl border border-gray-700 mt-5 pl-3 pr-3 py-2'>
         <!-- <div class='text-2xl border border-gray-700 mt-5 pl-3 pr-3 py-2'> -->
-        <strong>Marginal Seats Scale </strong>
+        <strong>Marginal Seats </strong>
         <br>
         <div>
             <!-- <input type="checkbox" @click="allow_marginal_seats_slider" class="form-checkbox w-6 h-6"> -->
 
-            Show seats with margin less than: <strong>{{ marginals_threshold }}</strong>
+            majority < {{ marginals_threshold }} votes
             <div class="flex items-center space-x-4">
+                <i>Swing</i>
                 <input type="range" v-model="marginals_threshold" @input="marginal_seats_threshold" min="18" max="21500"
-                    class="mt-3 w-full h-7 bg-gray-100 border border-gray-500 rounded-lg appearance-none cursor-pointer" />
-                <div></div>
+                    class="ml-2 mt-3 mb-2 w-full h-7 bg-gray-100 border border-gray-500 rounded-lg appearance-none cursor-pointer" />
+                <i>Safe</i>
             </div>
         </div>
     </div>
@@ -67,16 +70,14 @@
 
         <!-- <input type="checkbox" @click="allow_turnout_slider" class="form-checkbox w-6 h-6"> -->
 
-        <strong>Election Turnout Scale </strong>{{ seat_count }}
+        <strong>Election Turnout </strong>{{ seat_count }}
         <br>
-
-
-
-        Turnout greater than: <strong>{{ turnout_threshold }}%</strong>
+        turnout < {{ turnout_threshold }}%
         <div class="flex items-center space-x-4">
+            <i>Low</i>
             <input type="range" v-model="turnout_threshold" @input="change_turnout_threshold" min="30" max="75"
                 class="mt-3 w-full h-7 bg-gray-100 border border-gray-500 rounded-lg appearance-none cursor-pointer" />
-            <div></div>
+            <i>High</i>
         </div>
     </div>
 </template>
@@ -109,12 +110,8 @@ export default {
         toggle_slider() {
             if (this.marginal_seats_slider = true) {
                 this.marginal_seats_slider = false; this.election_turnout_slider = true
-                console.log("marginal_seats_slider", this.marginal_seats_slider)
-                console.log("election_turnout_slider", this.election_turnout_slider)
 
             } else {
-                console.log("marginal_seats_slider", this.marginal_seats_slider)
-                console.log("election_turnout_slider", this.election_turnout_slider)
                 this.marginal_seats_slider = null; this.election_turnout_slider = false
             }
         },

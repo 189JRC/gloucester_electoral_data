@@ -1,14 +1,14 @@
 <template>
     <div class="flex flex-row">
-        <div id="column-2" class="flex-1">
+        <div id="column-2" class="text-3xl flex-1">
             <strong>CANDIDATES:</strong>
-            <table>
+            <!-- <table>
                     <th class="px-10">Name: </th>
                     <th class="pl-10">Hi2</th>
                     <th class="pl-10">Hi2</th>
-                    </table>
+                    </table> -->
                     <div class="overflow-auto max-h-1/2" style="height: 70vh;">
-            <div v-for="(candidate, index) in selected_constituency.candidates" :key="index" class="border border-gray-700 pl-3 pr-3 py-1 mb-2">
+            <div v-for="(candidate, index) in selected_constituency.candidates" :key="index" class="text-2xl border border-gray-700 pl-3 pr-3 py-1 mb-2">
                
 
                 <h3>Position: {{ candidate.rank }}</h3>
