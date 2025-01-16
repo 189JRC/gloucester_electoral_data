@@ -4,19 +4,22 @@ import ExperimentalComponent from './components/ExperimentalComponent.vue'
 </script>
 
 <template>
-  <div class="pt-5 pl-5">
-    <button @click="reset" class="p-2 bg-blue-100 border-2 border-black mx-2 text-xl ">Home</button>
-    <div class="mt-5" v-if="show_buttons">
-      <button @click="render_councils" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">Council Maps</button>
-      <button @click="render_constituencies" class="p-2 bg-gray-100 border-2 border-black mx-2 text-xl ">National Constituency Map</button>
-    </div>
+<div :class="headerClass" @click="isCollapsed=!isCollapsed" class="fixed top-0 w-full bg-white shadow-lg z-50 transition-all duration-300">
+  <div v-if="!isCollapsed" class="pt-5 pl-5 flex">
+    <button @click="reset" class="text-3xl p-2 px-4 bg-blue-100 border-2 border-black mx-2 text-xl">Home</button>
+    <button @click="render_councils" class="text-3xl p-2 px-4 bg-gray-100 border-2 border-black mx-2 text-xl">Council Maps</button>
+    <button @click="render_constituencies" class="text-3xl p-2 px-4 bg-gray-100 border-2 border-black mx-2 text-xl">National Constituency Map</button>
   </div>
-  <div v-if="show_councils">
-    <MapComponent/>
-  </div>
-  <div v-if="show_constituencies">
-    <ExperimentalComponent/>
-  </div>
+</div>
+<div>
+  
+</div>
+<div class="mt-20" v-if="show_councils">
+  <MapComponent/>
+</div>
+<div class="mt-20" v-if="show_constituencies">
+  <ExperimentalComponent/>
+</div>
   
   <!-- <div class="mt-5 p-6 max-w-sm mx-auto dark:bg-gray-800 rounded-xl shadow-md flex items-center space-x-4">
     <div class="flex-shrink-0">
@@ -52,12 +55,28 @@ export default {
     return {
       show_constituencies: false,
       show_councils: false,
-      show_buttons: true
+      show_buttons: true,
+      isCollapsed: false
     };
   },
+  computed: {
+    headerClass() {
+      return this.isCollapsed ? 'h-10' : 'h-20';
+    }
+  },
   mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
+    handleScroll() {
+      this.isCollapsed = window.scrollY > 50;
+    },
+    expandHeader() {
+      this.isCollapsed = false;
+    },
     reset() {
       this.show_buttons = true
       this.show_constituencies = false

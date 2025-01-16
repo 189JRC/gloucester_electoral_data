@@ -9,7 +9,7 @@
             <div
                 class="text-2xl mt-5 text-center border-l border-b border-t border-r border-blue-700 py-2">
                 <p>MP: <strong>{{ selected_constituency.candidates[0].full_name }}</strong><br></p>
-                <p>Party: <strong>{{ selected_constituency.winning_party }}</strong></p>
+                <p>Party: <strong>{{ party_mapping[selected_constituency.winning_party.toLowerCase()]['full_name'].split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ') }}</strong></p>
                 
                 <!-- <p>Designation: <strong> {{ selected_constituency.const_designation }}</strong></p> -->
             </div>
@@ -57,7 +57,7 @@
             majority < {{ marginals_threshold }} votes
             <div class="flex items-center space-x-4">
                 <i>Swing</i>
-                <input type="range" v-model="marginals_threshold" @input="marginal_seats_threshold" min="18" max="21500"
+                <input type="range" v-model="marginals_threshold" @input="marginal_seats_threshold" min="0" max="22000" step="50" 
                     class="ml-2 mt-3 mb-2 w-full h-7 bg-gray-100 border border-gray-500 rounded-lg appearance-none cursor-pointer" />
                 <i>Safe</i>
             </div>
@@ -74,8 +74,8 @@
         <br>
         turnout < {{ turnout_threshold }}%
         <div class="flex items-center space-x-4">
-            <i>Low</i>
-            <input type="range" v-model="turnout_threshold" @input="change_turnout_threshold" min="30" max="75"
+            <i>Low&nbsp;&nbsp;</i>
+            <input type="range" v-model="turnout_threshold" @input="change_turnout_threshold" min="30" max="80" step="1" 
                 class="mt-3 w-full h-7 bg-gray-100 border border-gray-500 rounded-lg appearance-none cursor-pointer" />
             <i>High</i>
         </div>
@@ -92,16 +92,18 @@ export default {
             type: Object,
             required: false
         },
-        
-
+        party_mapping: {
+            type: Object,
+            required: true
+        }
     },
     emits: ['update-seat-threshold', 'turnout-threshold-changed'],
     data() {
         return {
             //Constituency datacard child component
-            marginals_threshold: 5000,
+            marginals_threshold: 25000,
             colour_setting: "Neutral",
-            turnout_threshold: 50,
+            turnout_threshold: 100,
             marginal_seats_slider: true,
             election_turnout_slider: false
         }
@@ -121,17 +123,7 @@ export default {
         change_turnout_threshold() {
             this.$emit('turnout-threshold-changed', this.turnout_threshold);
         },
-        change_colour_setting() {
-            //this.colour_setting = this.colour_setting === 'Neutral' ? 'Colours' : this.colour_setting;
-            //this.colour_setting = this.colour_setting === 'Colours' ? 'Neutral' : this.colour_setting;
-            if (this.colour_setting === 'Neutral') {
-                this.colour_setting = 'Colours'
-                this.$emit('selected-colours-changed', this.colour_setting);
-            } else {
-                this.colour_setting = 'Neutral'
-                this.$emit('selected-colours-changed', this.colour_setting);
-            }
-        }
+
     }
 }
 </script>

@@ -15,7 +15,8 @@
         "full_name": "abolish_the_welsh_assembly_party"
     },
     "sdlp": {
-        "full_name": "social_democratic_&_labour_party"
+        "full_name": "social_democratic_&_labour_party",
+        "colour": "pink"
     },
     "fa": {
         "full_name": "freedom_alliance"
@@ -39,7 +40,8 @@
         "full_name": "sovereignty"
     },
     "tuv": {
-        "full_name": "traditional_unionist_voice"
+        "full_name": "traditional_unionist_voice",
+        "colour": "lightblue"
     },
     "chp": {
         "full_name": "christian_party},_proclaiming_christ's_lordship"
@@ -85,7 +87,8 @@
         "full_name": "the_yorkshire_party"
     },
     "apni": {
-        "full_name": "alliance"
+        "full_name": "alliance",
+        "colour": "lemonchiffon"
     },
     "indy": {
         "full_name": "independent",
@@ -161,7 +164,8 @@
         "full_name": "liverpool_community_independents"
     },
     "dup": {
-        "full_name": "democratic_unionist_party"
+        "full_name": "democratic_unionist_party",
+        "colour": "darkblue"
     },
     "bup": {
         "full_name": "british_unionist_party_b.u.p."
@@ -234,7 +238,8 @@
         "full_name": "heritage_party"
     },
     "uup": {
-        "full_name": "ulster_unionist_party"
+        "full_name": "ulster_unionist_party",
+        "colour": "royalblue"
     },
     "pro": {
         "full_name": "propel"
@@ -286,7 +291,7 @@
         "full_name": "scottish_family_party"
     },
     "pc": {
-        "full_name": "scottish_national_party",
+        "full_name": "plaid_cymru",
         "colour": "darkgreen"
     },
     "ssp": {

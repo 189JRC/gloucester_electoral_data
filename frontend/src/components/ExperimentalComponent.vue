@@ -4,10 +4,10 @@
     </div>
     <div class="flex mt-5">
         <div class="flex-col justify-center w-1/3 px-5">
+            <br><br><br><br><br><!--TODO-->
             <div id="ward-name" class="flex-1">
-                <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center">
-                    <br>
-                    <ElectionDataCard :selected_constituency="selected_constituency"
+                <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center shadow-xl">
+                    <ElectionDataCard :selected_constituency="selected_constituency" :party_mapping="party_mapping"
                         @update-seat-threshold="updated_margin" @turnout-threshold-changed="updated_turnout" />
                 </div>
             </div>
@@ -19,10 +19,11 @@
         </button>
         </div>
         
-        <div class="flex-1 h-1/2 w-1/2 px-5">
-            <div class="ml-12">
+        <div class="mt-2 flex-1 h-1/2 w-1/2 px-5">
+            <div class="">
                 <!-- The viewBox should start at (cx - rx, cy - ry) and extend to (width, height) -->
-                <svg ref="map" width="1325" height="1325" viewBox="10 0 900 900">
+                <svg ref="map" width="1000" height="1000">
+                <!-- <svg ref="map" width="1325" height="1325" viewBox="10 0 900 900"> -->
                 </svg>
             </div>
             <div id="tooltip"
@@ -30,9 +31,9 @@
             </div>
         </div>
         <div class="flex-col justify-center w-1/3 px-5">
+            <br><br><br><br>
             <div id="ward-name" class="flex-1">
-                <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center">
-                    <br>
+                <div v-if="show_election_datacard" class="border-4 border-gray-700 text-xl p-5 text-center shadow-xl">
                     <ConstituencyDataCard v-if="show_election_datacard" :selected_constituency="selected_constituency"
                         :show_margin_scale="show_margin_scale" />
                     <!-- :seat_count="seat_count" -->
@@ -66,8 +67,8 @@ export default {
             seat_count: null,
             show_margin_scale: false,
 
-            selected_margin: 5000,
-            turnout_threshold: 50,
+            selected_margin: 25000,
+            turnout_threshold: 100,
             //other
             colour_setting: true,
             party_mapping,
@@ -132,8 +133,8 @@ export default {
                 geo_data, 
                 election_winners, 
                 type='election_results', 
-                marginal_threshold=5000,
-                turnout_threshold=50
+                marginal_threshold=25000,
+                turnout_threshold=100
             ) {
 
             // console.log(this.colour_setting)
@@ -141,8 +142,8 @@ export default {
             svg.selectAll("path").remove();
             this.projection = d3.geoMercator()
                 .center([0.04225, -0.05935])
-                .scale(450000)
-                .translate([320, 450]);
+                .scale(600000)
+                .translate([425, 550]);
 
             this.path = d3.geoPath().projection(this.projection);
 
